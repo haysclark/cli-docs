@@ -1,0 +1,37 @@
+# OSX
+**/.DS_Store
+
+# IDEs
+.idea
+.editorconfig
+.jshintrc
+.travis.yml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+grunt
+Gruntfile.js
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+
+# Users do not need the unit tests
+spec
+doc
