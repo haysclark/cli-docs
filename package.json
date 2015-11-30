@@ -1,46 +1,45 @@
 {
   "name": "cli-docs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helper library for reading individual local text files for more scalable CLI documentation.",
   "main": "lib/index.js",
   "scripts": {
-	"start": "npm link",
-	"test": "mocha spec -u tdd -R spec --recursive",
-	"coverage": "istanbul cover -x '**/spec/**' ./node_modules/mocha/bin/_mocha -- --recursive --require spec/helpers/chai.js spec",
-	"report": "open ./coverage/lcov-report/index.html"
+    "start": "npm link",
+    "test": "mocha spec -u tdd -R spec --recursive",
+    "coverage": "istanbul cover -x '**/spec/**' ./node_modules/mocha/bin/_mocha -- --recursive --require spec/helpers/chai.js spec",
+    "report": "open ./coverage/lcov-report/index.html"
   },
   "repository": {
-	"type": "git",
-	"url": "git+https://github.com/haysclark/cli-docs.git"
+    "type": "git",
+    "url": "git+https://github.com/haysclark/cli-docs.git"
   },
   "directories": {
-	"lib": "./lib"
+    "lib": "./lib"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-	"chai": "^3.3.0",
-	"coveralls": "^2.11.4",
-	"grunt": "^0.4.5",
-	"grunt-contrib-jshint": "^0.11.3",
-	"grunt-mocha-cli": "^2.0.0",
-	"grunt-mocha-istanbul": "^3.0.1",
-	"istanbul": "^0.3.21",
-	"load-grunt-config": "^0.19.0",
-	"load-grunt-tasks": "^3.3.0",
-	"mocha": "^2.3.3",
-	"mocha-lcov-reporter": "^1.0.0",
-	"sinon": "^1.17.0"
+    "chai": "^3.3.0",
+    "coveralls": "^2.11.4",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-mocha-cli": "^2.0.0",
+    "grunt-mocha-istanbul": "^3.0.1",
+    "istanbul": "^0.3.21",
+    "load-grunt-config": "^0.19.0",
+    "load-grunt-tasks": "^3.3.0",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "^1.0.0",
+    "sinon": "^1.17.0"
   },
   "keywords": [
-	"documentation",
-	"helper",
-	"cli"
+    "documentation",
+    "helper",
+    "cli"
   ],
   "author": "Hays Clark",
   "license": "MIT",
   "bugs": {
-	"url": "https://github.com/haysclark/cli-docs/issues"
+    "url": "https://github.com/haysclark/cli-docs/issues"
   },
   "homepage": "https://github.com/haysclark/cli-docs#readme"
 }
